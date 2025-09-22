@@ -1,10 +1,9 @@
-import './App.css'
+import BaseLayout from "./BaseLayout"
 
 function App() {
   return (
-    <>
-      <h1>iks record</h1>
-    </>
+    <BaseLayout>
+    </BaseLayout>
   )
 }
 
