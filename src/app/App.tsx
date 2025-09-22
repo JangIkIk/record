@@ -1,9 +1,14 @@
-import BaseLayout from "./BaseLayout"
+// package
+import { RouterProvider} from 'react-router-dom';
+
+// slice
+import Router from "./Router"
 
 function App() {
   return (
-    <BaseLayout>
-    </BaseLayout>
+    <RouterProvider router={Router}>
+
+    </RouterProvider>
   )
 }
 
