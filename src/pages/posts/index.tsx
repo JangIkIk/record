@@ -18,7 +18,7 @@ function Posts() {
       as: "raw",
     });
 
-    const posts = Object.entries(PostsMd).map(([filePath, fileContent]) => {
+    const posts = Object.entries(PostsMd).map(([_, fileContent]) => {
       const { data, content } = matter(fileContent as string);
 
       const contentPreview = content.trim().slice(0, 100) + "...";
